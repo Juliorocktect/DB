@@ -1,6 +1,7 @@
 package com.inf.DB.Repo;
 
 import org.springframework.stereotype.Repository;
+import com.inf.DB.Model.User;
 import java.sql.*;
 
 

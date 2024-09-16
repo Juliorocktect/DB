@@ -13,7 +13,7 @@ public class BuchController{
     private BuchRepo repo;
 
     @GetMapping("/test")
-    public User testConnectionToDatabase(){
-        return repo.getUserById("123");
+    public User testConnectionToDatabase(@RequestParam String id){
+        return repo.getUserById(id);
     }
 }
