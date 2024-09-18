@@ -1,0 +1,26 @@
+.upper-section{
+   aspect-ratio: 16/9;
+}
+
+.user-card{
+    max-width: 300px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 12px;
+    margin: 12px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-grid{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}

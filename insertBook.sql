@@ -1,2 +1,3 @@
-INSERT INTO buch VALUES (43,2,'lol','SSIIO','Cornelsen');
-SELECT * FROM buch;
+SELECT COUNT(LastName) FROM student WHERE LastName='Jansen';
+
+SELECT MAX(Mark) FROM mark;

@@ -1,1 +1,1 @@
-SELECT * FROM user_table;
+SELECT COUNT(name) FROM user_table WHERE name='SIO';
