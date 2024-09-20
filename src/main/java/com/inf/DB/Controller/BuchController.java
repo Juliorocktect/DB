@@ -10,7 +10,7 @@ import com.inf.DB.Repo.BuchRepo;
 
 @RestController
 @Controller
-@CrossOrigin(origins = "http://domain2.com", maxAge = 3600)
+@CrossOrigin(origins = "https://miniature-space-waddle-9rgx9p6pww6f7xp9-5173.app.github.dev/", maxAge = 3600)
 public class BuchController{
     @Autowired
     private BuchRepo repo;
